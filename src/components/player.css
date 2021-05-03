@@ -1,0 +1,28 @@
+.player-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90px;
+}
+
+.player-overlay ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.player-overlay ul li {
+  color: #fff;
+  padding: 0 8px;
+}
+
+.player-overlay ul li span {
+  font-size: 1.25rem;
+  margin-right: 8px;
+}
+
+.player-overlay ul li sup {
+  color: red;
+  font-weight: 700;
+}
